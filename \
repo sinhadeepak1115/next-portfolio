@@ -1,7 +1,6 @@
 "use client"
 import Link from "next/link"
 import { useState } from "react"
-import Image from "next/image"
 const links = [
   { url: "/", title: "Home" },
   { url: "/about", title: "About" },
@@ -27,21 +26,10 @@ const Navbar = () => {
           <spam className="w-12 h-8 rounded bg-white text-black flex items-center justify-center ">Sinha</spam>
         </Link>
       </div>
-      <div className=" flex flex-row justify-between">
-        <Link href="https://github.com/sinhadeepak1115">
+      <div>
+        <Link href="">
           <Image src="/github.png" alt='' width={24} height={24} />
         </Link>
-        <Link href="https://twitter.com/sinhadeepak1115">
-          <Image src="/x.png" alt='' width={26} height={26} />
-        </Link>
-        <Link href="">
-          <Image src="/linkedin.png" alt='' width={24} height={24} />
-        </Link>
-
-        <Link href="">
-          <Image src="/instagram.png" alt='' width={24} height={24} />
-        </Link>
-
       </div>
       {/* RESPONSIVE MENU */}
       <div className="md:hidden">
