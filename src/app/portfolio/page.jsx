@@ -9,7 +9,7 @@ const portfoilioPage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      About
+      Portfolio
     </motion.div>
   );
 };
