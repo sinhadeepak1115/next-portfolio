@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+
 const AboutPage = () => {
   return (
     <motion.div
